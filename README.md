@@ -6,8 +6,9 @@ ________________________________________________________________________________
 ## Instructions (Read and follow instructions)
 
 1. Answer all questions (text, diagrams etc.) in one Microsoft Word document.
-2. Number all questions correctly
-3. Share this GitHub repo as your LMS submission link 
+2. Number all questions.
+3. Upload your document on this repo.
+4. Share this GitHub repo as your LMS submission link 
 ___________________________________________________________________________________________________________
 
 **Scenario:** 
