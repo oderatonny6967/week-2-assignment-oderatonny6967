@@ -17,12 +17,14 @@ What you'll need:
 Access to a computer with internet access
 A text editor (e.g. Microsoft Word Docs)
 Access to a sample Expense Tracker database (or instructor-provided data) that includes the table you designed in Week 1 (likely named "Expenses"). See the database script in this repo titled "Week2.txt"
-Scenario: Imagine you've been diligently tracking your expenses using the Expense Tracker database you designed last week. Now, it's time to analyze your spending habits!
+Scenario: Imagine you've diligently tracked your expenses using the Expense Tracker database you designed last week. Now, it's time to analyze your spending habits!
 
 ## Submission:
-
-Save your completed assignment as a document (e.g., .docx, .txt)
-Submit your document by uploading or pushing your document through on to this repo
+1. Download 8Week.sql file/database from this repo.
+2. Open MySQL WorkBench or any SQL Management Tool and Import the file/database
+3. Write SQL scripts to answer all questions below.
+4. Import, Export and rename the file to solution.docx, .txt, .sql Click to play : (https://www.youtube.com/watch?v=fX4-YiXxTn0 )
+5. Submit your document by uploading or pushing your document through onto this repo
 
 
 ## Part 1: Retrieving Data with SELECT (30 minutes)
@@ -31,14 +33,14 @@ Based on the Expense Tracker table you designed in Week 1, which likely includes
 
 **1.1 Retrieving All Expenses:**
 
-Write a SQL query to retrieve all data points (columns) from the "Expenses" table.
+Write an SQL query to retrieve all data points (columns) from the "Expenses" table.
 
 **1.2 Specific Columns:** 
 
-Modify your query to select only specific columns relevant to your analysis.For example, you might choose "date," "category," and "amount" to analyze spending patterns by category and date.
+Modify your query to select only specific columns relevant to your analysis. For example, you might choose "date," "category," and "amount" to analyze spending patterns by category and date.
 
 **1.3 Filtering by Date Range:** 
-Write a query to retrieve expenses charged between a specific date range (e.g., January 1, 2024, to February 15, 2024).
+Write a query to retrieve expenses charged between a specific date range (e.g., January 1, 2021, to December 15, 2024).
 Remember to use the appropriate data type for the "date" column when specifying the date range in your query.
 
 ## Part 2: Filtering with WHERE Clause (45 minutes)
@@ -56,7 +58,7 @@ Refine your query to find expenses that meet multiple criteria. For example, you
 Modify your query to find expenses belonging to one category or another (e.g., "Transportation" OR "Groceries").
 
 **2.5 Filtering with NOT:** 
-Write a query to display expenses that are NOT related to a specific category (e.g., "Rent").
+Write a query to display expenses unrelated to a specific category (e.g., "Rent").
 
 ## Part 3: Sorting Retrieved Data (45 minutes)
 
