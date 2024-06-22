@@ -20,11 +20,10 @@ Access to a sample Expense Tracker database (or instructor-provided data) that i
 Scenario: Imagine you've diligently tracked your expenses using the Expense Tracker database you designed last week. Now, it's time to analyze your spending habits!
 
 ## Submission:
-1. Download 8Week.sql file/database from this repo.
-2. Open MySQL WorkBench or any SQL Management Tool and Import the file/database
+1. Open MySQL WorkBench or any SQL Management Tool and Import the file/database
+2. Copy the code in week2.txt and run it into MySQL Workbench
 3. Write SQL scripts to answer all questions below.
-4. Import, Export and rename the file to solution.docx, .txt, .sql Click to play : (https://www.youtube.com/watch?v=fX4-YiXxTn0 )
-5. Submit your document by uploading or pushing your document through onto this repo
+4. Submit your document by uploading or pushing your document through onto this repo
 
 
 ## Part 1: Retrieving Data with SELECT (30 minutes)
