@@ -75,8 +75,11 @@ Imagine you're tasked by the CIO to expand your Expense Tracker database. Practi
 
 * We don't have a table for income yet. Create a table named "Income" with columns for:
 income_id (INT) - Primary Key (auto-increment)
+
 amount (DECIMAL(10,2)) - NOT NULL
+
 date (DATE) - NOT NULL
+
 source (VARCHAR(50)) - NOT NULL
 
 **4.2 After creating the "Income" table, you realize you also want to track the income category "source" (e.g., "Salary," "Freelance Work").** 
