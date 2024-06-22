@@ -74,6 +74,7 @@ Imagine you're tasked by the CIO to expand your Expense Tracker database. Practi
 **4.1 Write SQL commands to achieve the following:**
 
 * We don't have a table for income yet. Create a table named "Income" with columns for:
+  
 income_id (INT) - Primary Key (auto-increment)
 
 amount (DECIMAL(10,2)) - NOT NULL
