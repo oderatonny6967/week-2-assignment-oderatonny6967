@@ -66,3 +66,28 @@ Write a query to display all expenses sorted by amount in a specific order (e.g.
 
 **3.2 Sorting by Date and Category:**  
 Modify your query to sort expenses based on multiple columns. For example, you might sort first by date (descending order) and then by category (ascending order) to see recent spending trends by category.
+
+## Part 4: Database Upgrade
+
+Imagine you're tasked by the CIO to expand your Expense Tracker database. Practice creating, modifying, and removing a table to manage spending habits.
+
+**4.1 Write SQL commands to achieve the following:**
+
+* We don't have a table for income yet. Create a table named "Income" with columns for:
+income_id (INT) - Primary Key (auto-increment)
+amount (DECIMAL(10,2)) - NOT NULL
+date (DATE) - NOT NULL
+source (VARCHAR(50)) - NOT NULL
+
+**4.2 After creating the "Income" table, you realize you also want to track the income category "source" (e.g., "Salary," "Freelance Work").** 
+
+* Use ALTER TABLE to add a new column named "category" of type VARCHAR(50).
+  
+**4.3 Let's say you decide tracking the income source isn't necessary for now.**
+
+* Use ALTER TABLE again to remove the "source" column from the "Income" table.
+
+Imagine you no longer need the "Income" table entirely. Experiment how to Use DROP TABLE to permanently remove it from your database.
+
+Ensure to save all your queries in a document and upload onto this repo. 
+
