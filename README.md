@@ -126,7 +126,7 @@ ANSWER
 
 Imagine you no longer need the "Income" table entirely. Experiment how to Use DROP TABLE to permanently remove it from your database.
  ANSWER 
- Using  command (the DROP TABLE expenses ;)
+ Using  command (the DROP TABLE Income ;)
 
 Ensure to save all your queries in a document and upload onto this repo. 
 
