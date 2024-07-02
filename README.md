@@ -34,38 +34,60 @@ Based on the Expense Tracker table you designed in Week 1, which likely includes
 
 Write an SQL query to retrieve all data points (columns) from the "Expenses" table.
 
+    ANSWER
+![alt text](2.1.1.PNG)
+
 **1.2 Specific Columns:** 
 
 Modify your query to select only specific columns relevant to your analysis. For example, you might choose "date," "category," and "amount" to analyze spending patterns by category and date.
+  ANSWER
+  ![alt text](2.1.2.PNG)
 
 **1.3 Filtering by Date Range:** 
 Write a query to retrieve expenses charged between a specific date range (e.g., January 1, 2021, to December 15, 2024).
 Remember to use the appropriate data type for the "date" column when specifying the date range in your query.
 
+ ANSWER
+ ![alt text](2.1.3.PNG)
+
 ## Part 2: Filtering with WHERE Clause (45 minutes)
 
 **2.1 Filtering by Category:** 
 Write a query to find all expenses belonging to a specific category (e.g., "Entertainment").
+  ANSWER
+  ![alt text](2.2.1.PNG)
 
 **2.2 Filtering with Comparison Operators:** 
 Find expenses with an amount greater than a certain value (e.g., $50).
+    ANSWER 
+    ![alt text](2.2.2.PNG)
 
 **2.3 Combining Filters (AND):**  
 Refine your query to find expenses that meet multiple criteria. For example, you might search for expenses greater than $75 AND belonging to the "Food" category.
+   ANSWER
+   ![alt text](2.2.3.PNG)
 
 **2.4 Combining Filters (OR):** 
 Modify your query to find expenses belonging to one category or another (e.g., "Transportation" OR "Groceries").
+   ANSWER 
+   ![alt text](2.2.4.PNG)
 
 **2.5 Filtering with NOT:** 
 Write a query to display expenses unrelated to a specific category (e.g., "Rent").
+   ANSWER
+   ![alt text](2.2.5.PNG)
 
 ## Part 3: Sorting Retrieved Data (45 minutes)
 
 **3.1 Sorting by Amount:** 
 Write a query to display all expenses sorted by amount in a specific order (e.g., descending order for highest to lowest spending).
+   ANSWER
+   ![alt text](2.3.1.PNG)
 
 **3.2 Sorting by Date and Category:**  
 Modify your query to sort expenses based on multiple columns. For example, you might sort first by date (descending order) and then by category (ascending order) to see recent spending trends by category.
+  ANSWER 
+  ![alt text](2.3.2.PNG)
 
 ## Part 4: Database Upgrade
 
@@ -83,15 +105,28 @@ date (DATE) - NOT NULL
 
 source (VARCHAR(50)) - NOT NULL
 
+  ANSWERS 
+  My table already exists 
+  ![alt text](2.4.1.PNG)
+
+
 **4.2 After creating the "Income" table, you realize you also want to track the income category "source" (e.g., "Salary," "Freelance Work").** 
 
 * Use ALTER TABLE to add a new column named "category" of type VARCHAR(50).
+   ANSWER 
+   ![alt text](2.4.2.PNG)
+
   
 **4.3 Let's say you decide tracking the income source isn't necessary for now.**
 
 * Use ALTER TABLE again to remove the "source" column from the "Income" table.
 
+ANSWER 
+![alt text](2.4.3.PNG)
+
 Imagine you no longer need the "Income" table entirely. Experiment how to Use DROP TABLE to permanently remove it from your database.
+ ANSWER 
+ Using  command (the DROP TABLE expenses ;)
 
 Ensure to save all your queries in a document and upload onto this repo. 
 

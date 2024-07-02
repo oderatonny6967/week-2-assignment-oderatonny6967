@@ -55,3 +55,38 @@ CALL InsertSampleData();
 -- Drop the functions and procedures if they are no longer needed
 DROP PROCEDURE IF EXISTS InsertSampleData;
 DROP FUNCTION IF EXISTS GetRandomDate;
+
+
+
+
+-- HERE IS THE UPDATED COMMANDS THAT I USED FOR MY ASSIGNMENT
+select * from expenses ;
+select amount ,date,category from expenses;
+SELECT * FROM Expenses 
+WHERE date BETWEEN '2021-01-01' AND '2024-12-15';
+SELECT * FROM Expenses 
+WHERE category = 'Entertainment';
+SELECT * FROM Expenses 
+WHERE amount > 50;
+SELECT * FROM Expenses 
+WHERE amount > 75 AND category = 'Food';
+SELECT * FROM Expenses 
+WHERE category = 'Transportation' OR category = 'Groceries';
+SELECT * FROM Expenses 
+WHERE category != 'Rent';
+SELECT * FROM Expenses 
+ORDER BY amount DESC;
+SELECT * FROM Expenses 
+ORDER BY date DESC, category ASC;
+CREATE TABLE Income (
+    income_id INT AUTO_INCREMENT PRIMARY KEY,
+    amount DECIMAL(10, 2) NOT NULL,
+    date DATE NOT NULL,
+    source VARCHAR(50) NOT NULL
+);
+ALTER TABLE Income 
+ADD COLUMN category VARCHAR(50);
+ALTER TABLE Income 
+DROP COLUMN source;
+
+
